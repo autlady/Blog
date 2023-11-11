@@ -1,0 +1,11 @@
+extends ./../layouts/main.pug
+
+block variables
+    - const title = "Страница поста";
+
+block content
+    .container
+        .main-inner
+            +article("Gastropub ennui keytar, plaid meggings marfa edison bulb pour-over austin enamel pin", "November 28, 2019 — 12 comments", "full-post-preview.jpg")
+            include ./../sections/comment-form.pug
+            include ./../sections/comments.pug

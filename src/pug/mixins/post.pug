@@ -1,0 +1,19 @@
+mixin post(title, info, img, link)
+    article.post 
+        .post__title
+            h2.title-2 #{title}
+        .post__info
+            h3.title-3 #{info}
+        .post__img 
+            img(src="./img/posts-preview/" + img, alt= title)
+        .post__content
+            block 
+        .post__footer
+            .post__readmore
+                +btn-read-more("read more", link) 
+        
+            .post__share-icons 
+                include ./../sections/share-icons.pug
+             
+
+        

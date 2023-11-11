@@ -1,0 +1,24 @@
+.header {
+	padding: 50px 60px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DDE2E7;
+}
+
+
+.header__btns {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.svg-search {
+    width: 26px;
+    height: 26px;
+    transition: .3s;
+
+    &:hover {
+        opacity: 0.75;
+    }
+}

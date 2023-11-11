@@ -1,0 +1,35 @@
+.post {
+    padding: 60px 0 40px;
+    border-bottom: 1px solid #DDE2E7;
+}
+
+.post__title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.post__info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.post__img {
+    margin-bottom: 40px;
+}
+
+.post__content {
+    margin-bottom: 40px;
+
+    p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.75;
+    }
+}
+
+.post__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

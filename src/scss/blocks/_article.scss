@@ -1,0 +1,32 @@
+.article {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    width: 830px;
+    text-align: center;
+}
+
+.article__title {
+    margin-bottom: 15px;
+}
+
+.article__info {
+    margin-bottom: 40px;
+}
+
+.article__img {
+    margin-bottom: 40px;
+}
+
+.article__text {
+    margin-bottom: 20px;
+    text-align: left;
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.75;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

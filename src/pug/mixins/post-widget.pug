@@ -1,0 +1,10 @@
+mixin post-widget(img, title, info, link="#")
+    .post-widget
+        .post-widget__img
+            a(href= link) 
+                img(src="./img/small-thumbs/" + img, alt= title) 
+        .post-widget__title
+            a(href= link) 
+                h4.title-4 #{title}
+        .post-widget__info
+            h5.title-5 #{info}

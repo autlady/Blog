@@ -1,0 +1,9 @@
+mixin comment(name, text, img) 
+    .comment 
+        .user-info
+            if img   
+                .comment__userpic    
+                    img(src="./img/users/" + img, alt= name)
+            .comment__username #{name}
+        .comment__text
+            p #{text}

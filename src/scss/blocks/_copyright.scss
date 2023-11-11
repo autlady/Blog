@@ -1,0 +1,13 @@
+.copyright {
+    padding: ((60px - 14px)/2) 0;
+    background-color: var(--footer-bottom-bg);
+}
+
+.copyright__text {
+    text-align: center;
+
+    color: var(--text-grey);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+}

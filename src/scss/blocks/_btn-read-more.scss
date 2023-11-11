@@ -1,0 +1,25 @@
+.btn-read-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+
+    padding: 14px 30px 15px;
+    height: 44px;
+
+    border-radius: 6px;
+
+    background-color: var(--btn-bg);
+
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+
+    transition: background-color 0.2s ease-in;
+
+    &:hover {
+        background-color: lighten(#375573, 20%);
+    }
+}

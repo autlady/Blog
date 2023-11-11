@@ -1,0 +1,14 @@
+header.header
+   .header__social
+      include ./social-icons.pug
+
+   .header__logo 
+      h1.logo Hipsum Blog
+      
+   .header__btns
+      .header__btns-search
+         button.btn-search
+            svg.svg-search 
+               use(href="./img/svgSprite.svg#svg-search")
+      .header__btns-subscribe 
+         button.btn-rounded subscribe

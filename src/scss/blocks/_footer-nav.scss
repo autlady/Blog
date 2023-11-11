@@ -1,0 +1,19 @@
+.footer-nav {
+    color: var(--text-muted);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-nav__item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer-nav__link {
+    color: var(--text-muted);
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
