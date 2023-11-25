@@ -6,25 +6,3 @@
 .social-icons__item:not(:last-child) {
     margin-right: 30px;
 }
-
-.svg-insta {
-    width: 22px;
-}
-
-.svg-tw {
-    width: 25px;
-}
-
-.svg-fb {
-    width: 14px;
-}
-
-.svg-insta, .svg-tw, .svg-fb {
-    height: 25px;
-    transition: .3s;
-
-    &:hover {
-        opacity: 0.75;
-    }
-}
-

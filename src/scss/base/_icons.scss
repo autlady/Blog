@@ -1,0 +1,40 @@
+.svg-insta {
+    width: 22px;
+}
+
+.svg-tw {
+    width: 25px;
+}
+
+.svg-fb {
+    width: 14px;
+}
+
+.svg-insta, .svg-tw, .svg-fb {
+    height: 25px;
+    transition: .3s;
+
+    &:hover {
+        opacity: 0.75;
+    }
+}
+
+.svg-wa {
+    width: 21px;
+    height: 25px;
+    transition: .3s;
+
+    &:hover {
+        opacity: 0.75;
+    }
+}
+
+.svg-search {
+    width: 26px;
+    height: 26px;
+    transition: .3s;
+
+    &:hover {
+        opacity: 0.75;
+    }
+}

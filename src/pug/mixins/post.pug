@@ -1,4 +1,5 @@
-mixin post(title, info, img, link)
+mixin post(title, info, img, link = "inner-page.html")
+    // ===single post===
     article.post 
         .post__title
             h2.title-2 #{title}
@@ -11,9 +12,13 @@ mixin post(title, info, img, link)
         .post__footer
             .post__readmore
                 +btn-read-more("read more", link) 
-        
             .post__share-icons 
-                include ./../sections/share-icons.pug
+                +social([
+                   { link: "#!", className: "wa" },
+                   { link: "#!", className: "insta" },
+                   { link: "#!", className: "tw" },
+                   { link: "#!", className: "fb" },
+               ])
              
 
         

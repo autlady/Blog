@@ -1,9 +1,13 @@
 header.header
    .header__social
-      include ./social-icons.pug
+      +social([
+         { link: "#!", className: "insta" },
+         { link: "#!", className: "tw" },
+         { link: "#!", className: "fb" },
+      ])
 
    .header__logo 
-      h1.logo Hipsum Blog
+      a(href="index.html").logo Hipsum Blog
       
    .header__btns
       .header__btns-search

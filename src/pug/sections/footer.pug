@@ -13,7 +13,11 @@ footer
             .col-3
                +footer-nav(footerNavThird)
             .col-3 
-               include ./social-icons.pug
+               +social([
+                  { link: "#!", className: "insta" },
+                  { link: "#!", className: "tw" },
+                  { link: "#!", className: "fb" },
+               ])
    
    .copyright
       .copyright__text &#169; Copyright 2019. All rights reserved.

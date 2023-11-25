@@ -6,19 +6,21 @@
     border-bottom: 1px solid #DDE2E7;
 }
 
+.header__logo {
+    a {
+        color: #000;
+        text-decoration: none;
+        transition: color .2s ease-in;
+    
+        &:hover {
+            color: var(--accent);
+            }
+    }
+}
+
 
 .header__btns {
     display: flex;
     align-items: center;
     gap: 45px;
-}
-
-.svg-search {
-    width: 26px;
-    height: 26px;
-    transition: .3s;
-
-    &:hover {
-        opacity: 0.75;
-    }
 }
